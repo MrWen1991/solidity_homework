@@ -1,0 +1,23 @@
+{
+  "proxyAddress": "0x705938c4f36E8E27D6483ec0F465EfC5d9457d8C",
+  "implementAddress": "0x70b47a7C7D176Caa290b17a6A6879C3Be4a1A1a8",
+  "abi": [
+    "error AddressEmptyCode(address)",
+    "error ERC1967InvalidImplementation(address)",
+    "error ERC1967NonPayable()",
+    "error FailedCall()",
+    "error InvalidInitialization()",
+    "error NotInitializing()",
+    "error UUPSUnauthorizedCallContext()",
+    "error UUPSUnsupportedProxiableUUID(bytes32)",
+    "event Initialized(uint64)",
+    "event Upgraded(address indexed)",
+    "function UPGRADE_INTERFACE_VERSION() view returns (string)",
+    "function createAuction(address,uint256,uint256,uint256) returns (address)",
+    "function getAuction(address,uint256) view returns (address,uint256)",
+    "function getAuctions() view returns (address[])",
+    "function initialize()",
+    "function proxiableUUID() view returns (bytes32)",
+    "function upgradeToAndCall(address,bytes) payable"
+  ]
+}

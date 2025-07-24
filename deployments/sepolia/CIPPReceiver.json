@@ -1,0 +1,12 @@
+{
+  "address": "0xfdA02C4711070beEA7548C716297ea6F6374BD56",
+  "abi": [
+    "constructor(address,address)",
+    "error InvalidRouter(address)",
+    "function ccipReceive((bytes32,uint64,bytes,bytes,(address,uint256)[]))",
+    "function factory() view returns (address)",
+    "function getRouter() view returns (address)",
+    "function supportsInterface(bytes4) view returns (bool)"
+  ],
+  "numDeployments": 1
+}
